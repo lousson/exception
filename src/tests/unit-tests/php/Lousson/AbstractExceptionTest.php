@@ -70,7 +70,14 @@ abstract class AbstractExceptionTest extends PHPUnit_Framework_TestCase
     abstract public function getException(array $args);
 
     /**
+     *  Obtain a list of implemented interfaces
      *
+     *  The getExpectedInterfaces() method returns a list of zero or more
+     *  interface names, each referring to an interface the exception that
+     *  is returned by the getException() method is expected to implement.
+     *
+     *  @return array
+     *          A list of interface names is returned on success
      */
     public function getExpectedInterfaces()
     {
@@ -93,7 +100,15 @@ abstract class AbstractExceptionTest extends PHPUnit_Framework_TestCase
     }
 
     /**
+     *  Provide parameters to create exception instances
      *
+     *  The provideExceptionParameters() method is a data provider for
+     *  e.g. the testExceptionClass() method. It returns an array of many
+     *  items, each of whose is an array itself, where the first (and only)
+     *  item is a valid input for the getException() method.
+     *
+     *  @return array
+     *          A list of exception parameters is returned on success
      */
     public function provideExceptionParameters()
     {
@@ -124,7 +139,23 @@ abstract class AbstractExceptionTest extends PHPUnit_Framework_TestCase
     }
 
     /**
+     *  Test exception classes
+     *
+     *  The testExceptionClass() method is a test case that attempts to
+     *  obtain exception instances from the tests getException() method
+     *  (using the $parameters provided), and also verifies the instance
+     *  being a descendant of the expected classes and interfaces.
+     *
+     *  @param  array               $parameters The exception parameters
+     *
      *  @dataProvider               provideExceptionParameters
+     *  @test
+     *
+     *  @throws \PHPUnit_Framework_AssertionFailedError
+     *          Raised in case any of the test's assertions failed
+     *
+     *  @throws \Exception
+     *          Raised in case of an internal error
      */
     public function testExceptionClass(array $parameters)
     {
