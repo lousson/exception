@@ -112,28 +112,28 @@ abstract class AbstractExceptionTest extends PHPUnit_Framework_TestCase
      */
     public function provideExceptionParameters()
     {
-        $p[][] = array(null);
-        $p[][] = array(null, null);
-        $p[][] = array(null, null, new Exception());
-        $p[][] = array(null, 0);
-        $p[][] = array(null, 0, new Exception());
-        $p[][] = array(null, 123);
-        $p[][] = array(null, 123, new Exception());
-        $p[][] = array("");
-        $p[][] = array("", null);
-        $p[][] = array("", null, new Exception());
-        $p[][] = array("", 0);
-        $p[][] = array("", 0, new Exception());
-        $p[][] = array("", 123);
-        $p[][] = array("", 123, new Exception());
-        $p[][] = array("foo");
-        $p[][] = array("foo", null);
-        $p[][] = array("foo", null, new Exception());
-        $p[][] = array("foo", 0);
-        $p[][] = array("foo", 0, new Exception());
-        $p[][] = array("foo", 123);
-        $p[][] = array("foo", 123, new Exception());
         $p[][] = array();
+        $p[][] = array("foo", 123, new Exception());
+        $p[][] = array("foo", 123);
+        $p[][] = array("foo", 0, new Exception());
+        $p[][] = array("foo", 0);
+        $p[][] = array("foo", null, new Exception());
+        $p[][] = array("foo", null);
+        $p[][] = array("foo");
+        $p[][] = array("", 123, new Exception());
+        $p[][] = array("", 123);
+        $p[][] = array("", 0, new Exception());
+        $p[][] = array("", 0);
+        $p[][] = array("", null, new Exception());
+        $p[][] = array("", null);
+        $p[][] = array("");
+        $p[][] = array(null, 123, new Exception());
+        $p[][] = array(null, 123);
+        $p[][] = array(null, 0, new Exception());
+        $p[][] = array(null, 0);
+        $p[][] = array(null, null, new Exception());
+        $p[][] = array(null, null);
+        $p[][] = array(null);
 
         return $p;
     }
