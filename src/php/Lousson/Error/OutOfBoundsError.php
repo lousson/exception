@@ -34,7 +34,7 @@
 /**
  *  Definition of the Lousson\Error\OutOfBoundsError class
  *
- *  @package    org.lousson.error
+ *  @package    org.lousson.exception
  *  @copyright  (c) 2013, The Lousson Project
  *  @license    http://opensource.org/licenses/bsd-license.php New BSD License
  *  @author     Mathias J. Hennig <mhennig at quirkies.org>
@@ -54,8 +54,8 @@ use OutOfBoundsException;
  *  encounter of an out-of-bounds error. It extends the Standard Library's
  *  OutOfBoundsException and implements the AnyException interface.
  *
- *  @since      lousson/error-0.1.0
- *  @package    org.lousson.error
+ *  @since      lousson/Lousson_Exception-0.1.0
+ *  @package    org.lousson.exception
  *  @link       http://php.net/manual/en/class.outofboundsexception.php
  *  @link       http://php.net/manual/en/spl.exceptions.php
  */

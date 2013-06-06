@@ -34,7 +34,7 @@
 /**
  *  Lousson\AnyException interface definition
  *
- *  @package    org.lousson.error
+ *  @package    org.lousson.exception
  *  @copyright  (c) 2013, The Lousson Project
  *  @license    http://opensource.org/licenses/bsd-license.php New BSD License
  *  @author     Mathias J. Hennig <mhennig at quirkies.org>
@@ -55,8 +55,8 @@ namespace Lousson;
  *  HTTP status codes; although derived interfaces and concrete classes
  *  may define additional ones.
  *
- *  @since      lousson/error-0.1.0
- *  @package    org.lousson.error
+ *  @since      lousson/Lousson_Exception-0.1.0
+ *  @package    org.lousson.exception
  */
 interface AnyException
 {

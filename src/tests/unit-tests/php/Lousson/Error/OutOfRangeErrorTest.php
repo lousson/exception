@@ -34,7 +34,7 @@
 /**
  *  Lousson\Error\OutOfRangeErrorTest class definition
  *
- *  @package    org.lousson.error
+ *  @package    org.lousson.exception
  *  @copyright  (c) 2013, The Lousson Project
  *  @license    http://opensource.org/licenses/bsd-license.php New BSD License
  *  @author     Mathias J. Hennig <mhennig at quirkies.org>
@@ -49,8 +49,8 @@ use ReflectionClass;
 /**
  *  A test case for the OutOfRangeError class
  *
- *  @since      lousson/error-0.1.0
- *  @package    org.lousson.error
+ *  @since      lousson/Lousson_Exception-0.1.0
+ *  @package    org.lousson.exception
  */
 class OutOfRangeErrorTest extends AbstractExceptionTest
 {

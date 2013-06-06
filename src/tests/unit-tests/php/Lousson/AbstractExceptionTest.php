@@ -34,7 +34,7 @@
 /**
  *  Lousson\AbstractExceptionTest class definition
  *
- *  @package    org.lousson.error
+ *  @package    org.lousson.exception
  *  @copyright  (c) 2013, The Lousson Project
  *  @license    http://opensource.org/licenses/bsd-license.php New BSD License
  *  @author     Mathias J. Hennig <mhennig at quirkies.org>
@@ -50,8 +50,8 @@ use PHPUnit_Framework_TestCase;
 /**
  *  An abstract test case for exceptions
  *
- *  @since      lousson/error-0.1.0
- *  @package    org.lousson.error
+ *  @since      lousson/Lousson_Exception-0.1.0
+ *  @package    org.lousson.exception
  */
 abstract class AbstractExceptionTest extends PHPUnit_Framework_TestCase
 {

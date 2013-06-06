@@ -34,7 +34,7 @@
 /**
  *  Definition of the Lousson\Error\FatalError class
  *
- *  @package    org.lousson.error
+ *  @package    org.lousson.exception
  *  @copyright  (c) 2013, The Lousson Project
  *  @license    http://opensource.org/licenses/bsd-license.php New BSD License
  *  @author     Mathias J. Hennig <mhennig at quirkies.org>
@@ -54,8 +54,8 @@ use ErrorException;
  *  errors. It extends PHP's predefined ErrorException and implements the
  *  AnyException interface.
  *
- *  @since      lousson/error-0.1.0
- *  @package    org.lousson.error
+ *  @since      lousson/Lousson_Exception-0.1.0
+ *  @package    org.lousson.exception
  *  @link       http://php.net/manual/en/class.errorexception.php
  *  @link       http://php.net/manual/en/reserved.exceptions.php
  */
