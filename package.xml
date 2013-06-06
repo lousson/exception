@@ -14,7 +14,7 @@
   <channel>${project.channel}</channel>
   <summary>standard exception interface and error classes</summary>
   <description>
-    The lousson/error package consists of a standard exception interface,
+    The Lousson_Exception package consists of a standard exception interface,
     specific for the Lousson-project, and a bunch of error classes extending
     PHP and SPL exceptions and implementing the interface
   </description>

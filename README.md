@@ -1,15 +1,15 @@
-Lousson: Error
-==============
+Lousson: Exception
+==================
 
-The lousson/error package consists of a standard exception interface,
-specific for the Lousson-project, and a bunch of error classes extending
-PHP and SPL exceptions and implementing the interface.
+The `Lousson_Exception` package consists of a standard exception interface,
+specific for the Lousson-project, and a bunch of error classes implementing
+the interface by extending PHP and SPL exceptions.
 
 
 Dependencies
 ------------
 
-The lousson/error package itself only depends on PHP and a(ny) PSR-0
+The `Lousson_Exception` package itself only depends on PHP and a(ny) PSR-0
 compatible autoload implementation:
 
 - **PHP 5.3.0+**:                           http://www.php.net/
@@ -36,17 +36,17 @@ http://pear.lousson.org - thus, one can use the "pear" script to
 install any of them, e.g.:
 
 	pear channel-discover pear.lousson.org
-	pear install lousson/error
+	pear install lousson/Lousson_Exception
 
 The complete sourcecode and version history is avialabe at GitHub.
-One may either visit http://github.com/lousson/error or clone
+One may either visit http://github.com/lousson/exception or clone
 the source tree directly:
 
-	git clone git@github.com:lousson/error.git
+	git clone git@github.com:lousson/exception.git
 
 GitHub is also used to track issues like bugs and feature-requests:
 
-	http://github.com/lousson/error/issues
+	http://github.com/lousson/exception/issues
 
 Pull requests and other contributions are welcome!
 
@@ -55,7 +55,7 @@ Copyright & License
 -------------------
 
 Unless denoted otherwise, the following terms apply to all software
-provided within the lousson/error package:
+provided within the `Lousson_Exception` package:
 
 	Copyright (c) 2013, The Lousson Project
 
@@ -87,5 +87,4 @@ provided within the lousson/error package:
 
 Please note that the creators of the software mentioned in the
 "Dependencies" section define their own licensing terms & conditions!
-
 
