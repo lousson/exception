@@ -14,10 +14,10 @@
         <whitelist addUncoveredFilesFromWhitelist="true">
             <directory suffix=".php">src/bin</directory>
             <directory suffix=".php">src/php</directory>
+            <exclude>
+              <file>src/php/Lousson/AnyException.php</file>
+            </exclude>
         </whitelist>
-        <exclude>
-          <file>src/php/Lousson/AnyException.php</file>
-        </exclude>
     </filter>
     <logging>
         <log type="coverage-html" target="review/code-coverage"/>
