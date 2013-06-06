@@ -12,11 +12,11 @@
 
   <name>${project.name}</name>
   <channel>${project.channel}</channel>
-  <summary>standard exception interface and error classes</summary>
+  <summary>Standard exception interface and error classes</summary>
   <description>
     The lousson/error package consists of a standard exception interface,
     specific for the Lousson-project, and a bunch of error classes extending
-    PHP and SPL exceptions and implementing the interface
+    PHP and SPL exceptions and implementing the interface.
   </description>
 
   <lead>
@@ -62,9 +62,9 @@ ${contents}
         <max>3.999.9999</max>
       </package>
       <package>
-        <name>sniffs</name>
+        <name>Lousson_Sniffs</name>
         <channel>pear.lousson.org</channel>
-        <min>0.2.0</min>
+        <min>0.4.0</min>
       </package>
     </required>
   </dependencies>
