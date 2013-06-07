@@ -177,7 +177,7 @@ abstract class AbstractExceptionTest extends PHPUnit_Framework_TestCase
 
         foreach ($this->getExpectedClasses() as $c) {
             $message = "The $errorClass must extend the $c class";
-            $this->assertInstanceOf($i, $error, $message);
+            $this->assertInstanceOf($c, $error, $message);
         }
     }
 }

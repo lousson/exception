@@ -86,7 +86,7 @@ class RuntimeErrorTest extends AbstractExceptionTest
      */
     public function getExpectedClasses()
     {
-        return array("ErrorException");
+        return array("RuntimeException");
     }
 }
 

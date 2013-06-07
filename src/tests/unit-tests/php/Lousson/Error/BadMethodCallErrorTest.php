@@ -86,7 +86,7 @@ class BadMethodCallErrorTest extends AbstractExceptionTest
      */
     public function getExpectedClasses()
     {
-        return array("ErrorException");
+        return array("BadMethodCallException");
     }
 }
 
