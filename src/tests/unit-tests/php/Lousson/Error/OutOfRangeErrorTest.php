@@ -86,7 +86,7 @@ class OutOfRangeErrorTest extends AbstractExceptionTest
      */
     public function getExpectedClasses()
     {
-        return array("ErrorException");
+        return array("OutOfRangeException");
     }
 }
 

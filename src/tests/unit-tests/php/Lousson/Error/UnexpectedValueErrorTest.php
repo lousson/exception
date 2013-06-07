@@ -86,7 +86,7 @@ class UnexpectedValueErrorTest extends AbstractExceptionTest
      */
     public function getExpectedClasses()
     {
-        return array("ErrorException");
+        return array("UnexpectedValueException");
     }
 }
 
