@@ -1,6 +1,8 @@
 Lousson: Exception
 ==================
 
+![Build Status](https://travis-ci.org/lousson/exception.png?branch=master)
+
 The `Lousson_Exception` package consists of a standard exception interface,
 specific for the Lousson-project, and a bunch of error classes implementing
 the interface by extending PHP and SPL exceptions.
@@ -42,7 +44,7 @@ The complete sourcecode and version history is avialabe at GitHub.
 One may either visit http://github.com/lousson/exception or clone
 the source tree directly:
 
-	git clone git@github.com:lousson/exception.git
+	git clone https://github.com/lousson/exception.git
 
 GitHub is also used to track issues like bugs and feature-requests:
 
